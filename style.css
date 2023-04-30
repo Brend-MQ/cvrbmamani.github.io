@@ -1,0 +1,131 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.container-h {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content:  space-between;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+/*--- ASIDE -------*/
+aside{
+    position: fixed;
+    height: 100%;
+  }
+  
+  aside .opcines{
+ padding-top: 1px;
+    width: 51px;
+    height: 100%;
+    background-color: #363535;
+  }
+ul{padding: 0 !important;}
+  aside .opcines  li a:hover{
+    background-color: rgba(116, 116, 116, 0.548);
+    color: rgb(37, 164, 37);
+    border-left: 3px solid rgb(37, 164, 37) ;
+  }
+
+  aside .opcines li { 
+    list-style: none;
+    margin-top: 20px;
+  }
+  aside .opcines  li a {
+    z-index: 100;
+    padding: 15px;
+    color: rgb(208, 208, 208);
+  }
+
+  footer{
+    padding: 20px;
+    font-size: large;
+  }
+/* main */
+
+.listas-op{
+    margin-left: 40px;
+}
+.desc{
+    margin-left: 20px;
+    width: 70rem;
+}
+.perfil{
+    color: rgb(236, 236, 236);
+    font-size: 15px;
+    width: 240px;
+    padding: 15px;
+    background-color: #141b35;
+    height: 100%;
+}
+/*  */
+.container-r{
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+.container-r .perfil .header-p img{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.container-r .perfil .li-opc{
+    list-style: square;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container-r li i{
+    color: rgb(51, 153, 138);
+}
